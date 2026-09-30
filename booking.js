@@ -1,7 +1,7 @@
 // booking.js — แค่ดูข้อมูล ไม่แตะ DB เลย
 
-const API = "http://localhost:3000/api";
-
+//const API = "http://localhost:3000/api";
+const API = "https://vanvan-backend-a2qy.onrender.com/api";
 const getToken = () => localStorage.getItem("token");
 const getUser  = () => { try { return JSON.parse(localStorage.getItem("user")); } catch { return null; } }
 

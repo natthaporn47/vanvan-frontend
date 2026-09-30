@@ -1,8 +1,8 @@
 // script.js — Login page (PostgreSQL version)
 import { toast } from "./Toast.js";
 
-const API = "http://localhost:3000/api";
-
+//const API = "http://localhost:3000/api";
+const API = "https://vanvan-backend-a2qy.onrender.com/api";
 // ═══════════════════════════════════════════
 // FIELD VALIDATION UI
 // ═══════════════════════════════════════════
